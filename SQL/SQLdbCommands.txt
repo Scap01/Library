@@ -227,5 +227,5 @@ REFERENCES [dbo].[Tbl_Members] ([MemberId])
 GO
 USE [master]
 GO
-ALTER DATABASE [dbMyOnlineShopping] SET  READ_WRITE
+ALTER DATABASE [dbBookLibrary] SET  READ_WRITE
 GO
