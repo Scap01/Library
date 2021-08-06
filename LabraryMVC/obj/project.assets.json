@@ -1519,6 +1519,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DbBook/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DbBook.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DbBook.dll": {}
+        }
       }
     }
   },
@@ -5649,10 +5658,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DbBook/1.0.0": {
+      "type": "project",
+      "path": "../DbBook/DbBook.csproj",
+      "msbuildProject": "../DbBook/DbBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DbBook >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.17",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.17",
@@ -5696,7 +5711,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj": {
+              "projectPath": "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5748,7 +5767,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

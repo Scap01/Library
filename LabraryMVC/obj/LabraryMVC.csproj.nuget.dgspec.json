@@ -4,6 +4,16 @@
     "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\LabraryMVC\\LabraryMVC.csproj": {}
   },
   "projects": {
+    "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj",
+        "projectName": "DbBook",
+        "projectPath": "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj"
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
     "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\LabraryMVC\\LabraryMVC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -34,7 +44,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj": {
+                "projectPath": "D:\\Etude\\2-annee\\Session3\\Asp.net\\LabraryMVC\\DbBook\\DbBook.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -86,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
