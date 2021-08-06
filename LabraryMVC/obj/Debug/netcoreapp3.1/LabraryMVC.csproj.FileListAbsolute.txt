@@ -89,3 +89,9 @@ D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\obj\Debug\netcoreapp3.1\
 D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\obj\Debug\netcoreapp3.1\LabraryMVC.dll
 D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\obj\Debug\netcoreapp3.1\LabraryMVC.pdb
 D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\obj\Debug\netcoreapp3.1\LabraryMVC.genruntimeconfig.cache
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\bin\Debug\netcoreapp3.1\DbBook.dll
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\bin\Debug\netcoreapp3.1\DbBook.pdb
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\bin\Debug\netcoreapp3.1\DbBook.dll.config
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\bin\Debug\netcoreapp3.1\EntityFramework.xml
+D:\Etude\2-annee\Session3\Asp.net\LabraryMVC\LabraryMVC\obj\Debug\netcoreapp3.1\LabraryMVC.csproj.AssemblyReference.cache

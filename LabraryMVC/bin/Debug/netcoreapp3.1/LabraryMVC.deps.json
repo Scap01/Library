@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "LabraryMVC/1.0.0": {
         "dependencies": {
+          "DbBook": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.17",
           "Microsoft.AspNetCore.Identity.UI": "3.1.17",
@@ -1460,6 +1461,22 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "DbBook/1.0.0": {
+        "runtime": {
+          "DbBook.dll": {}
+        },
+        "compile": {
+          "DbBook.dll": {}
+        }
+      },
+      "EntityFramework/4.4.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.20627.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3782,6 +3799,16 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "DbBook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/4.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

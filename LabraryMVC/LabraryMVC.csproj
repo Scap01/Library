@@ -17,4 +17,8 @@
     <Folder Include="DAL\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DbBook\DbBook.csproj" />
+  </ItemGroup>
+
 </Project>
