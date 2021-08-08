@@ -188,6 +188,7 @@ namespace BookStore.Controllers
                 Title = model.Title,
                 Description = model.Description,
                 Date = model.Date,
+                Own = model.Own,
                 ImageUrl = model.ImageUrl,
                 Author = author
             };
@@ -201,6 +202,7 @@ namespace BookStore.Controllers
                 Title = book.Title,
                 Description = book.Description,
                 Date = book.Date,
+                Own = book.Own,
                 AuthorId = book.Author.Id,
                 ImageUrl = book.ImageUrl,
                 Authors = authorRepository.List().ToList()

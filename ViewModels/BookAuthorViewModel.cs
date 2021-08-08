@@ -22,6 +22,8 @@ namespace BookStore.ViewModels
         public string Description { get; set; }
         public string Date { get; set; }
 
+        public string Own { get; set; }
+
         public int AuthorId { get; set; }
         public IFormFile File {get; set;}
         public string ImageUrl { get; set; }

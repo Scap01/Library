@@ -14,6 +14,8 @@ namespace BookStore.Models
 
         public string Date { get; set; }
 
+        public string Own { get; set; }
+
         public Author Author { get; set; }
         
     }

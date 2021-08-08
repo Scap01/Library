@@ -13,7 +13,7 @@
         <form asp-action="Edit" enctype="multipart/form-data" autocomplete="off">
             @if (ViewBag.Message != null)
             {
-        <h5 class="alert alert-danger">@ViewBag.Message</h5>            }
+        <h5 class="alert alert-danger">@ViewBag.Message</h5>}
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="BookId" class="control-label"></label>
@@ -34,6 +34,17 @@
                 <label asp-for="Date" class="control-label"></label>
                 <input asp-for="Date" class="form-control" />
                 <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Own" class="control-label"></label>
+                <div id="RadioButtonGroup">
+                    <label asp-for="Own" class="radio-inline">
+                        <input asp-for="Own" value="Already own" type="radio" name="optradio">Already own
+                    </label>
+                    <label asp-for="Own" class="radio-inline">
+                        <input asp-for="Own" value="Want to buy" type="radio" name="optradio">Want to buy
+                    </label>
+                </div>
             </div>
             <div class="form-group">
                 <label asp-for="File" class="control-label"></label>
