@@ -126,7 +126,7 @@ namespace BookStore.Controllers
             }
             catch
             {
-                ViewBag.Massage = "Error Occured";
+                ViewBag.Message = "Error Occured";
                 return Delete(id); 
             }
         }
@@ -187,6 +187,8 @@ namespace BookStore.Controllers
                 Id = model.BookId,
                 Title = model.Title,
                 Description = model.Description,
+                Date = model.Date,
+                Own = model.Own,
                 ImageUrl = model.ImageUrl,
                 Author = author
             };
@@ -199,6 +201,8 @@ namespace BookStore.Controllers
                 BookId = book.Id,
                 Title = book.Title,
                 Description = book.Description,
+                Date = book.Date,
+                Own = book.Own,
                 AuthorId = book.Author.Id,
                 ImageUrl = book.ImageUrl,
                 Authors = authorRepository.List().ToList()

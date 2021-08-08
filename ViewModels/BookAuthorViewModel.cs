@@ -20,6 +20,9 @@ namespace BookStore.ViewModels
         [Required]
         [StringLength(120, MinimumLength = 5)]
         public string Description { get; set; }
+        public string Date { get; set; }
+
+        public string Own { get; set; }
 
         public int AuthorId { get; set; }
         public IFormFile File {get; set;}
