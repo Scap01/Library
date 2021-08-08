@@ -6,4 +6,4 @@
             "endDate": moment().endOf('year'),
             "opens": "center"
         });
-}
+}a
